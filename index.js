@@ -23,6 +23,8 @@ function kalkulatorSederhana(e) {
     else if(operator == '/') {
         hasil.value = pembagian;
     }
+
+    alert('test');
     
     e.preventDefault();
 }
